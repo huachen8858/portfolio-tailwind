@@ -30,7 +30,7 @@ export default function HeroSection() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fuga molestias quia cumque sequi.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit mb-2 mr-4 rounded-full bg-gradient-to-br from-blue-300 to-blue-600 text-white hover:bg-slate-800">
+            <button className="px-6 py-3 w-full sm:w-fit mb-2 mr-4 rounded-full bg-gradient-to-br from-blue-300 to-blue-600 text-white hover:bg-slate-400">
               Hire Me
             </button>
             <button className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-300 to-blue-600 hover:bg-slate-800 text-white mt-3">
