@@ -10,6 +10,10 @@ export default function ProjectSection() {
     setTag(newTag);
   };
 
+  const filterProjects = projectsData.filter((project) =>
+    project.tag.includes(tag)
+  );
+
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
@@ -33,7 +37,7 @@ export default function ProjectSection() {
         />
       </div>
       <div className="grid md:grid-col-3 gap-8 md:gap-12">
-        {projectsData.map((project) => (
+        {filterProjects.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
