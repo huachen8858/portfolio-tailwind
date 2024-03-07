@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function EmailSection() {
-  // const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [emailSubmitted, setEmailSubmitted] = useState(false);
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
