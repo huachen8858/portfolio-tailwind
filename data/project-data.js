@@ -1,0 +1,58 @@
+const projectsData = [
+  {
+    id: 1,
+    title: "Responsive Number Counting",
+    description: "Keep track of my achievements.",
+    image: "/projects/responsive-number-counting-2.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/huachen8858/responsive-number-counting",
+    previewUrl: "https://responsive-number-counting.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Lunch Selector",
+    description: "Spin the wheel for today's lunch.",
+    image: "/projects/spin-the-wheel.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/huachen8858/lunch-selector",
+    previewUrl: "https://lunch-selector-1l9cuxx7z-minhuas-projects.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Wheather App",
+    description: "Weather APP (React(Next.js ver.14) + OpenWeather API)",
+    image: "/projects/weather-app.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/huachen8858/weather-app",
+    previewUrl: "https://weather-app-beta-ruddy.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "FreeFyt fitness web - store & cart",
+    description: "Welcome to shopping in our fitness website.",
+    image: "/projects/freefyt-store.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/huachen8858/freefyt-client",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Tic Tac Toe",
+    description: "Let's play!",
+    image: "/projects/tic-tac-toe.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/huachen8858/react-practise",
+    previewUrl: "https://react-practise-kappa.vercel.app/tic-tac-toe",
+  },
+  {
+    id: 6,
+    title: "Animated Sidebar",
+    description: "This is a practise of a collapsible sidebar using CSS, pseudo-elements, offsetTop, and JavaScript.",
+    image: "/projects/animated-sidebar.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/huachen8858/animated-sidebar",
+    previewUrl: "https://animated-sidebar-eight.vercel.app",
+  },
+];
+
+export default projectsData;
