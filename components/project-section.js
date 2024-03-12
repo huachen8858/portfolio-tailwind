@@ -36,7 +36,7 @@ export default function ProjectSection() {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <div className="grid md:grid-col-3 gap-8 md:gap-12">
+      <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filterProjects.map((project) => (
           <ProjectCard
             key={project.id}
